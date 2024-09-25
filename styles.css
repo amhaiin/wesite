@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(0, 123, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+footer {
+    background-color: #343a40;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
